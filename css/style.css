@@ -1,0 +1,197 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    color: #191919;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: #191919;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    color: #191919;
+    font-weight: 400;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    color: #191919;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #191919;
+    font-weight: 400;
+}
+
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #191919;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #191919;
+    font-weight: 400;
+}
+
+
+/* ============================navbar========================== */
+.head {
+    color: #0c7625;
+    font-weight: 600;
+}
+
+.cheading {
+    font-weight: 600;
+}
+
+.nav-link {
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: rebeccapurple;
+}
+
+li.nav-item {
+    padding: 20px 5px;
+}
+
+a.nav-link:hover {
+    color: #1977cc !important;
+}
+
+a.nav-link.active {
+    color: #1977cc !important;
+    border-bottom: 2px solid #1977cc;
+}
+
+#navbar {
+    box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* ============================read article========================== */
+.read-article-head {
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+
+.category-head {
+    padding-top: 85px;
+    padding-bottom: 25px;
+}
+
+/* ============================Footer========================== */
+.foot-bg {
+    background-color: #f8f9fa;
+}
+
+.ft-sec2 {
+    padding-left: 50px;
+}
+
+.ft-sec3 {
+    padding-left: 80px;
+}
+
+.ft-sec4 {
+    padding-left: 120px;
+}
+
+/* ============================Copyright========================== */
+#copyright {
+    background-color: #0c7625
+}
+
+.copy,
+.design>a {
+    font-size: 14px;
+    color: white;
+    padding-top: 15px;
+}
+
+.design {
+    font-size: 14px;
+    color: white;
+    text-align: right;
+    padding-top: 15px;
+}
+
+
+/* ============================Responsive========================== */
+@media(max-width:991px) {
+    .head {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:991px) {
+
+    .nav-link,
+    li.nav-item {
+        font-size: 12px;
+        padding: 10px 5px;
+    }
+}
+
+@media(max-width:991px) {
+
+    .read-article-head,
+    .category-head {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:991px) {
+
+    .ft-sec1,
+    .ft-sec2,
+    .ft-sec3,
+    .ft-sec4 {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+
+@media(max-width:991px) {
+    .copyright-f {
+        text-align: center;
+    }
+}
+
+@media(max-width:1024px) {
+
+    .ft-sec1,
+    .ft-sec2,
+    .ft-sec3,
+    .ft-sec4 {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media(max-width:991px) {
+
+    .copy,
+    .design {
+        text-align: center;
+        padding-top: 5px;
+    }
+}
